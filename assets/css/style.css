@@ -1,0 +1,500 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Andada Pro', serif;
+    src: url(../fonts/AndadaPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: malayalam;
+    src: url(../fonts/Malayalam\ MN.ttc);
+}
+body {
+    background-color: #F5F5F5;
+}
+header {
+    border-bottom: 1px solid black;
+    padding: 30px 0px;
+}
+.navigation-container {
+    max-width: 1188px;
+    width: 90%;
+    margin: 0 auto;
+}
+nav li {
+    display: inline;
+}
+.logo {
+    margin: 25px 270px 25px 0px;
+    font-size: 26px;
+    line-height: 37.03px;
+    font-weight: 400;
+    font-family: malayalam;
+}
+.nav-page {
+    margin: 30px 52px 30px 0px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.user-icon {
+    margin: 36.23px 0px 0px 311px;
+    width: 16px;
+    height: 18.63px;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.product-selling-container {
+    max-width: 1188px;
+    width: 90%;
+    margin: 0 auto;
+}
+.top-selling {
+    margin-top: 72px;
+    text-align: center;
+    font-size: 24px;
+    line-height:28.8px;
+    font-weight: 500;
+    color:#000000;
+}
+
+.top-selling:hover {
+    text-decoration: underline;
+}
+.top-products-section {
+    padding-top: 65px;
+}
+.product-box-wrapper {
+    display: inline-block;
+}
+.product-box-wrapper.middle {
+    margin: 0px 90px;
+}
+.product-content {
+    border: 1px solid black;
+    width: 333px;
+    height: 486px;
+    padding: 15px 15px 25px 15px;
+}
+.product-content img {
+    width: 100%;
+}
+.product-content h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 15px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-content p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.product-content h4,
+.product-content p {
+    margin-left:25px;
+    color: #000000;
+}
+.product-content h4:hover {
+    text-decoration: underline;
+}
+.product-content p:hover {
+    text-decoration: underline;
+}
+.content-button {
+    text-align: right;
+    margin-top: 23.26px;
+}
+.content-button button {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    padding: 6px 26.22px;
+    cursor: pointer
+}
+.content-button button:hover {
+    text-decoration: underline;
+}
+.product-description {
+    padding: 62px 0px 39px 25px;
+    font-size: 14px;
+    line-height: 30.01px;
+    font-weight: 400;
+    color: #000000;
+    font-family:'Open sans', sans-serif
+}
+.product-description li {
+    list-style: inside;
+}
+.product-description:hover {
+    text-decoration: underline;
+}
+.section-footer {
+    text-align: right;
+    margin-bottom: 61px;
+}
+.section-footer:hover {
+    text-decoration: underline;
+}
+/* about */
+
+.about-company {
+    margin-top: 134px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 47.08px;
+    font-weight: 600;
+    font-family: 'Andada Pro', serif;
+    color: #7D0000;
+}
+.about-company:hover{
+    text-decoration: underline;
+}
+
+.text-about {
+    width: 650px;
+    height: 205px;
+    font-size: 25px;
+    line-height: 41.25px;
+    font-family: 'Andada Pro', serif;
+    color: #000000;
+    margin-top: 115px;
+    margin-right: 664px;
+    margin-left: 126px;
+}
+.text-about:hover {
+    text-decoration: underline;
+}
+.adress-about a {
+    font-size: 25px;
+    line-height: 29.43px;
+    font-weight: 400;
+    font-family: 'Andada Pro', serif;
+    font-style: italic;
+    color: #000000;
+    margin-top: 89px;
+    margin-left: 434px;
+}
+.adress-about a:hover {
+    text-decoration: underline;
+}
+.image-about{
+    width: 500px;
+    height: 333.33px;
+    border-radius: 20px;
+    margin-left: 835px;
+    margin-top:-185px;
+    margin-right: 105px;
+}
+/* blog*/
+.blog-container {
+    max-width: 1252px;
+    width: 90%;
+    margin: 0 auto;
+}
+.blog-news {
+    margin-top: 47px;
+    width: 446px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 400;
+    font-family:  'FiraGO', sans-serif;
+}
+.blog-news:hover {
+    text-decoration: underline;
+}
+.blog-themes {
+    text-align: center;
+}
+.blog-container ul {
+    margin-top:93px;
+}
+.blog-container li {
+    display: inline;
+    margin-right: 65px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 500;
+    font-family:  'FiraGO', sans-serif;
+    color: #000000;
+}
+.blog-container li:hover {
+    text-decoration: underline;
+}
+.blog-storys {
+    margin-top: 68px;
+}
+
+.summer-story-container {
+background-color:#E5EBE5;
+margin-left: 330px;
+margin-top: -310px;
+width: 918px;
+height: 228px;
+}
+.holidays-img {
+    margin-right: 1038px;
+    width: 308px;
+    height:308px;
+}
+.holidays-story h4 {
+    padding: 38px 656px 0px 36px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 500;
+    font-family:  'FiraGO', sans-serif;
+    color: #000000;
+}
+.holidays-story h4:hover {
+    text-decoration: underline;
+}
+.holidays-story p {
+    padding: 32px 32px 12px 36px;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 350;
+    font-family:  'FiraGO', sans-serif;
+    color: #474747;
+}
+.holidays-story p:hover {
+    text-decoration: underline;
+}
+.holidays-story .storys-button {
+    text-align: right;
+    margin-top: 14px;
+}
+.holidays-story button {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    font-family:  'FiraGO', sans-serif;
+    padding: 11px 27px 15px 28px;
+    cursor: pointer;
+}
+.holidays-story button:hover {
+    text-decoration: underline;
+}
+.komono-img {
+    width: 354px;
+    height: 354px;
+    margin-right: 1016px;
+    margin-top: 63px;
+}
+.brand-story-container {
+    background-color:#E5EBE5;
+    width: 918px;
+    height: 228px;
+    margin-left: 330px;
+    margin-top: -355px;
+}
+.brand-story h4 {
+    padding: 35px 808px 0px 36px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 500;
+    font-family:  'FiraGO', sans-serif;;
+    color: #000000;
+}
+.brand-story h4:hover {
+    text-decoration: underline;
+}
+.brand-story p {
+    padding: 35px 32px 12px 36px;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 350;
+    font-family:  'FiraGO', sans-serif;
+    color: #474747;
+}
+.brand-story p:hover {
+    text-decoration: underline;
+}
+.brand-story .storys-button {
+    text-align: right;
+    margin-top: 14px;
+}
+.brand-story button{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    font-family:  'FiraGO', sans-serif;
+    padding: 12.22px 27px 12.22px 28px;
+    cursor: pointer;
+}
+.brand-story button:hover {
+    text-decoration: underline;
+}
+/* contact*/
+.contact-us {
+    margin-top: 147px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 47.08px;
+    font-weight: 700;
+    font-family:'Andada Pro', serif;
+    color: #7D0000;
+}
+.contact-us:hover {
+    text-decoration: underline;
+}
+.contact {
+    margin-top: 119px;
+    margin-left: 280px;
+}
+.mail-info a {
+    font-size: 27px;
+    line-height: 31.78px;
+    font-weight: 600;
+    font-family: 'Andada Pro', serif;
+    font-style: italic;
+    color: #0B253E
+}
+.phone-num {
+    margin-top: 34px;
+    font-size: 27px;
+    line-height: 31.78px;
+    font-weight: 600;
+    font-family: 'Andada Pro', serif;
+    color: #0B253E;
+}
+.location {
+    margin-left: 866px;
+    margin-top: -90px;
+    margin-right: 280px;
+}
+.adress-info {
+    font-size: 27px;
+    line-height: 31.78px;
+    font-weight: 600;
+    font-family: 'Andada Pro', serif;
+    color: #0B253E
+}
+.working-hours {
+    margin-top: 34px;
+    font-size: 27px;
+    line-height: 31.78px;
+    font-weight: 600;
+    font-family: 'Andada Pro', serif;
+    color: #0B253E;
+}
+.contact-info li:hover {
+    text-decoration: underline;
+}
+.map {
+    margin: 144px 266px 193px 266px;
+    width: 908px;
+    height: 423px;
+    border-radius: 16.18px;
+}
+/*profile*/
+.profile-picture img {
+    margin-top: 169px;
+    margin-left: 206px;
+    width: 170px;
+    height: 170.81px;
+    border-radius: 300px;
+}
+.personal-data {
+    margin-left: 444px;
+    margin-top: -90px;
+}
+.name {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.name:hover {
+    text-decoration: underline;
+}
+.proffesion {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #546CCC;
+    font-style: italic;
+}
+.proffesion:hover {
+    text-decoration: underline;
+}
+.about {
+    margin-left: 245px;
+    margin-top: 96.19px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 3%;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: underline #7D0000;
+}
+.data {
+    margin-top: 58px;
+    margin-left: 237px;
+}
+.data li {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.data li:hover {
+    text-decoration: underline;
+}
+.adress {
+    margin: 30px 0px;
+}
+.data-details {
+    margin-left: 462px;
+    margin-top: -150px;
+}
+.data-details li {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.data-details li:hover {
+    text-decoration: underline;
+}
+.profile-button {
+    margin-top: 25px;
+    margin-left:956px;
+}
+.profile-button button {
+    padding: 16px 32px 16px 32px;
+    font-size: 25px;
+    line-height: 37.5px;
+    font-weight: 500;
+    background-color:#87AC87 ;
+    color: #FFFFFF;
+    border:none;
+    cursor: pointer;
+}
+.profile-button button:hover {
+    text-decoration: underline;
+}
